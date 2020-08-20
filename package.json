@@ -1,0 +1,25 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "practice react with nodejs",
+  "main": "index.js",
+  "repository": "https://github.com/jun-gyu/React_nodeJs",
+  "author": "jun-gyu<enskawk1991@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon @babel/node ./app.js"
+  }
+}
